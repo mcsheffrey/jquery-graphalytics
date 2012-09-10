@@ -21,4 +21,4 @@
 /* Initialize */
 
 
-gapi.client.load('API_NAME', 'API_VERSION', CALLBACK);
+// gapi.client.load('API_NAME', 'API_VERSION', CALLBACK);

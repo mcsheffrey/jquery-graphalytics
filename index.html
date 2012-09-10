@@ -87,8 +87,10 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 <script src="js/d3.v2.js"></script>
 <script src="js/hello_analytics_api_v3_auth.js"></script>
-<script src="js/hello_analytics_api_v3.js"></script>
-<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+    <script src="js/hello_analytics_api_v3.js"></script>
+
+    <!-- Load the Client Library. Use the onload parameter to specify a callback function -->
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
 
